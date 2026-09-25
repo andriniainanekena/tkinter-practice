@@ -1,0 +1,16 @@
+start 0 0 green
+A 1 0 orange
+B 2 0 orange
+C 2 1 orange
+D 1 1 orange
+E 3 0 blue
+goal 4 0 red
+
+[connections]
+start A 
+A B 
+B C 
+C D 
+D A 
+B E
+E goal
